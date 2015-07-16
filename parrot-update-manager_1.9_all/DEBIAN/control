@@ -1,0 +1,10 @@
+Package: parrot-update-manager
+Version: 1.9
+Architecture: all
+Maintainer: Lorenzo "EclipseSpark" Faletra <eclipse@frozenbox.org>
+Installed-Size: 41
+Depends: gtkd, apt-parrot
+Section: parrot
+Priority: optional
+Description: A simple APT update manager frontend for Parrot OS
+ A simple APT update manager frontend for Parrot OS
