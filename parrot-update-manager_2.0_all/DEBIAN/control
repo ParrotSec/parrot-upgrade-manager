@@ -1,8 +1,8 @@
 Package: parrot-update-manager
-Version: 1.9
+Version: 2.0
 Architecture: all
 Maintainer: Lorenzo "EclipseSpark" Faletra <eclipse@frozenbox.org>
-Installed-Size: 41
+Installed-Size: 44s
 Depends: gtkd, apt-parrot
 Section: parrot
 Priority: optional
