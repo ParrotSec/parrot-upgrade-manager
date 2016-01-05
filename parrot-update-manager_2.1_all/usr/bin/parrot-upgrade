@@ -11,131 +11,64 @@ Encoding=UTF-8
 						<input file>/usr/share/parrot-update-manager/icons/parrot-upgrade.svg</input>
 					</pixmap>
 				</frame>
-				<frame Mirror Selector                         by zone                             -               by provider >
+				<frame Mirror Selector>
 					<hbox>
 						<vbox>
 			 			<button>
 							<height>60</height>
-							<label>USA 1</label>
+							<label>USA 1 - MTU</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector us" &</action>
-		    			</button>
-		    			<button>
-							<height>60</height>
-							<label>USA 2</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us2" &</action>
-		    			</button>
-		    			<button>
-							<height>60</height>
-							<label>USA 3</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us3" &</action>
-		    			</button>
-		    			<button>
-							<height>60</height>
-							<label>USA 4</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us4" &</action>
 		    			</button>
 		    			</vbox>
 		    			<vbox>
 		    			<button>
 							<width>60</width>
-							<label>South America 1</label>
+							<label>South America 1 - CEDIA</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sa" &</action>
 		    			</button>
 			  			<button>
 							<width>60</width>
-							<label>South America 2</label>
+							<label>South America 2 - ESPOCH</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sa2" &</action>
 		    			</button>
 		    			<button>
 							<width>60</width>
-							<label>South America 3</label>
+							<label>South America 3 - UTA</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sa3" &</action>
 		    			</button>
 		    			</vbox>
 		    			<vbox>
 		    			<button>
 							<width>60</width>
-							<label>Euro 1</label>
+							<label>Euro 1 - GARR</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu" &</action>
 		    			</button>
 			  			<button>
 							<width>60</width>
-							<label>Euro 2</label>
+							<label>Euro 2 - FROZENBOX</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu2" &</action>
 		    			</button>
 		    			<button>
 							<width>60</width>
-							<label>Euro 3</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu3" &</action>
+							<label>Euro 4 - SMOOTHOSTING</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu4" &</action>
+		    			</button>
+<button>
+							<width>60</width>
+							<label>Euro 5 - CLOUDFLARE</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu5" &</action>
 		    			</button>
 		    			</vbox>
 		    			<vbox>
 		    			<button>
 							<width>60</width>
-							<label>Asia 1</label>
+							<label>Asia 1 - YANDEX</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector asia" &</action>
 		    			</button>
 		    			</vbox>
 		    			
 		    			<vseparator space-expand="true" space-fill="true">
-		    			</vseparator>
-		    			
-		    			<vbox>
-			 			<button>
-							<height>30</height>
-							<label>LUG MTU</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector mtu" &</action>
-		    			</button>
-			  			<button>
-							<width>30</width>
-							<label>GARR</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector garr" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>Yandex</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector yandex" &</action>
-		    			</button>
-		    			</vbox>
-		    			<vbox>
-		    			<button>
-							<width>30</width>
-							<label>CEDIA</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector cedia" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>ESPOCH</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector espoch" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>UTA</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector uta" &</action>
-		    			</button>
-		    			</vbox>
-		    			<vbox>
-		    			<button>
-							<width>30</width>
-							<label>Frozenbox n0</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu2" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>Frozenbox s0</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us2" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>Frozenbox s4</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us3" &</action>
-		    			</button>
-		    			<button>
-							<width>30</width>
-							<label>Frozenbox s7</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector us4" &</action>
-		    			</button>
-		    			</vbox>
+		    			</vseparator>  	
 		    		</hbox>
 		    	</frame>
 			</vbox>

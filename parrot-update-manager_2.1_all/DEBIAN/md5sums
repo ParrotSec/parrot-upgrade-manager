@@ -1,0 +1,10 @@
+df89a18cdd24283a6e40b84526282789  usr/share/applications/parrot-update-manager.desktop
+eba4211701775dabf907434114068482  usr/share/parrot-update-manager/full-upgrade.sh
+1910bcb9c9ce4520b952c92cef1236c3  usr/share/parrot-update-manager/icons/dist-upgrade.png
+1114b2ae57652271c215bfba30b883ee  usr/share/parrot-update-manager/icons/icon.svg
+3d7e9033cb7db988d1d8f81333bcdb94  usr/share/parrot-update-manager/icons/update.svg
+11c822ed457213bd60d8339d7181c5a6  usr/share/parrot-update-manager/icons/upgrade.png
+0331113b6b0945edcb639861760da3cf  usr/share/parrot-update-manager/icons/parrot-upgrade.svg
+8c943cac85575ffe78406268a26e149d  usr/share/doc/parrot-update-manager/AUTHORS
+45808ede072d6f896e6be11af484f253  usr/share/doc/parrot-update-manager/license
+d0671f0a4f42ff91de52223def84a327  usr/bin/parrot-upgrade
