@@ -59,6 +59,11 @@ Encoding=UTF-8
 							<label>Europe - france - frozenbox (250Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu2" &</action>
 		    			</button>
+			  			<button>
+							<width>60</width>
+							<label>Europe - france - lagoon (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector eu3" &</action>
+		    			</button>
 		    			<button>
 							<width>60</width>
 							<label>Europe - england - smoothosting (?)</label>
