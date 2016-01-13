@@ -44,7 +44,11 @@ Encoding=UTF-8
 							<label>South America - ecuador - uta (100Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sam3" &</action>
 		    			</button>
-
+			  			<button>
+							<width>60</width>
+							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
+		    			</button>
 		    			</vbox>
 						<vseparator space-expand="true" space-fill="true">
 		    			</vseparator> 
@@ -58,6 +62,11 @@ Encoding=UTF-8
 							<width>60</width>
 							<label>Europe - france - frozenbox (250Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro2" &</action>
+		    			</button>
+			  			<button>
+							<width>60</width>
+							<label>Europe - germany - rwth-aachen (20Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro3" &</action>
 		    			</button>
 		    			<button>
 							<width>60</width>
@@ -78,11 +87,6 @@ Encoding=UTF-8
 							<width>60</width>
 							<label>Middle East - iran - asis (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector meast" &</action>
-		    			</button>
-			  			<button>
-							<width>60</width>
-							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
 		    			</button>
 		    			</vbox> 	
 		    		</hbox>
