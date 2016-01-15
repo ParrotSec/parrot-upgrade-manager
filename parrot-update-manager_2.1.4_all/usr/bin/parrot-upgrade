@@ -16,18 +16,23 @@ Encoding=UTF-8
 						<vbox>
 			 			<button>
 							<height>60</height>
-							<label>USA - massachussetts - lug mtu (1Gbps)</label>
+							<label>USA - michigan - lug mtu (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector usa" &</action>
 		    			</button>
 			 			<button>
 							<height>60</height>
-							<label>USA - virginia - jmu (1Gbps)</label>
+							<label>USA - massachussetts - sipb mit (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector usa2" &</action>
 		    			</button>
 			 			<button>
 							<height>60</height>
-							<label>USA - new york - clarkson (1Gbps)</label>
+							<label>USA - virginia - jmu (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector usa3" &</action>
+		    			</button>
+			 			<button>
+							<height>60</height>
+							<label>USA - new york - clarkson (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector usa4" &</action>
 		    			</button>
 		    			<button>
 							<width>60</width>
@@ -43,11 +48,6 @@ Encoding=UTF-8
 							<width>60</width>
 							<label>South America - ecuador - uta (100Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sam3" &</action>
-		    			</button>
-			  			<button>
-							<width>60</width>
-							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
 		    			</button>
 		    			</vbox>
 						<vseparator space-expand="true" space-fill="true">
@@ -87,6 +87,11 @@ Encoding=UTF-8
 							<width>60</width>
 							<label>Middle East - iran - asis (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector meast" &</action>
+		    			</button>
+			  			<button>
+							<width>60</width>
+							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
 		    			</button>
 		    			</vbox> 	
 		    		</hbox>
