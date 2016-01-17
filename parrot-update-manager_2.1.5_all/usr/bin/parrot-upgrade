@@ -35,63 +35,73 @@ Encoding=UTF-8
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector usa4" &</action>
 		    			</button>
 		    			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>South America - ecuador - cedia (100Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sam" &</action>
 		    			</button>
 			  			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>South America - ecuador - espoch (100Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sam2" &</action>
 		    			</button>
 		    			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>South America - ecuador - uta (100Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector sam3" &</action>
+		    			</button>
+						<button>
+							<height>40</height>
+							<label>Middle East - iran - asis (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector meast" &</action>
+		    			</button>
+			  			<button>
+							<height>40</height>
+							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
 		    			</button>
 		    			</vbox>
 						<vseparator space-expand="true" space-fill="true">
 		    			</vseparator> 
 		    			<vbox>
 		    			<button>
-							<width>60</width>
+							<height>40</height>
+							<label>Europe - italy - dasaweb (1Gbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro6" &</action>
+		    			</button>
+		    			<button>
+							<height>40</height>
 							<label>Europe - italy - garr (10Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro" &</action>
 		    			</button>
 			  			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>Europe - france - frozenbox (250Mbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro2" &</action>
 		    			</button>
 			  			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>Europe - germany - rwth-aachen (20Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro3" &</action>
 		    			</button>
 		    			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>Europe - england - smoothosting (?)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector euro4" &</action>
 						</button>
 		    			<button>
-							<width>60</width>
+							<height>40</height>
 							<label>Asia - russia - yandex (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector asia" &</action>
 		    			</button>
 						<button>
-							<width>60</width>
+							<height>40</height>
 							<label>Asia - bangladesh - dhakamcom (1Gbps)</label>
 		      				<action>gksu "mate-terminal -x parrot-mirror-selector asia2" &</action>
 		    			</button>
 						<button>
-							<width>60</width>
-							<label>Middle East - iran - asis (1Gbps)</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector meast" &</action>
-		    			</button>
-			  			<button>
-							<width>60</width>
-							<label>Oceania - new caledonia - lagoon (1Gbps)</label>
-		      				<action>gksu "mate-terminal -x parrot-mirror-selector ocean" &</action>
+							<height>40</height>
+							<label>Asia - china - yfgao (250Mbps)</label>
+		      				<action>gksu "mate-terminal -x parrot-mirror-selector asia3" &</action>
 		    			</button>
 		    			</vbox> 	
 		    		</hbox>
