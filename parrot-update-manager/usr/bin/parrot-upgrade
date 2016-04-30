@@ -1,0 +1,99 @@
+#!/bin/bash
+prog="Parrot Update Manager"
+Encoding=UTF-8
+[ -z $GTKDIALOG ] && GTKDIALOG=gtkdialog
+	MAIN_DIALOG='
+<window window_position="1" font="Monospace" title="Parrot Update Manager" resizable="true"  image-name="/usr/share/parrot-update-manager/icons/icon.svg">
+        <vbox>
+				<frame>
+					<pixmap>
+						<input file>/usr/share/parrot-update-manager/icons/parrot-upgrade.svg</input>
+					</pixmap>
+				</frame>
+				<frame Mirror Selector>
+					<vbox space-fill="true">
+						<combobox>	 
+							<variable>mirror</variable> 
+							<item>usa		-  1 Gbps  - north america  - massachussetts  (SIPB MIT)</item> 
+							<item>usa2		-  1 Gbps  - north america  -    michigan     (LUG MTU)</item>
+							<item>usa3		-  1 Gbps  - north america  -    virginia     (JMU)</item>
+							<item>usa4		-  1 Gbps  - north america  -    new york     (CLARKSON)</item>
+							<item>usa5		-  1 Gbps  - north america  -  california     (BERKELEY)</item>
+							<item>euro		- 10 Gbps  -   europe       -    italy        (GARR)</item>
+							<item>euro2		- 250 Mbps -   europe       -    france       (FROZENBOX)</item>
+							<item>euro3		- 20 Gbps  -   europe       -    germany      (RWTH-AACHEN)</item>
+							<item>euro4		-  1 Gbps  -   europe       -    england      (WARWICK)</item>
+							<item>euro5		- 10 Gbps  -   europe       -   netherland    (NLUUG)</item>
+							<item>euro6		- 10 Gbps  -   europe       -    poland       (ONET)</item>
+							<item>euro7		-  4 Gbps  -   europe       -    sweden       (UMA)</item>
+							<item>asia		-  1 Gbps  -    asia        -    russia       (YANDEX)</item>
+							<item>asia2		-  1 Gbps  -    asia        -  bangladesh     (AMBERIT)</item>
+							<item>asia3		- 10 Mbps  -    asia        -     china       (YFGAO)</item>
+							<item>sam		- 100 Mbps - south america  -    ecuador      (CEDIA)</item>
+							<item>sam2		- 100 Mbps - south america  -    ecuador      (UTA)</item>
+							<item>meast		-  1 Gpbs  -  middle east   -     iran        (ASIS)</item>
+							<item>ocean		-  1 Gbps  -   oceania      - new caledonia   (LAGOON)</item>
+							<item>africa	- 100 Mbps -   africa       -    tanzania     (APTUS)</item>
+						</combobox>
+						<hbox>
+						<button> 
+							<label>Select Free mirror</label> 
+							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") parrot free</action> 
+						</button>
+						<button> 
+							<label>Select non-free mirror</label> 
+							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") parrot nonfree</action> 
+						</button>
+						<button> 
+							<label>Select testing mirror</label> 
+							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") testing nonfree</action> 
+						</button>
+						</hbox>
+		    		</vbox>
+		    	</frame>
+		<frame Wizard>
+			<hbox>
+				<button>
+       				<input file>/usr/share/parrot-update-manager/icons/icon.svg</input>
+					<width>180</width>
+					<height>60</height>
+					<label>.                                          Automatic System Upgrade                                      </label>
+          			<action>gksu "mate-terminal -x /usr/share/parrot-update-manager/full-upgrade.sh" &</action>
+        		</button>
+			</hbox>
+		</frame>  							   
+		<frame Manual Update>
+			<hbox>
+		 		<button>
+       				<input file>/usr/share/parrot-update-manager/icons/update.svg</input>
+					<height>60</height>
+					<label>      Check for Updates                      </label>
+          			<action>gksu "mate-terminal -x apt-get update" &</action>
+        		</button>
+        		<vbox>
+		  		<button>
+       				<input file>/usr/share/parrot-update-manager/icons/upgrade.png</input>
+					<width>30</width>
+					<label>             Partial Upgrade                               </label>
+          			<action>gksu "mate-terminal -x apt-get upgrade" &</action>
+        		</button>
+        		<button>
+       				<input file>/usr/share/parrot-update-manager/icons/dist-upgrade.png</input>
+					<width>30</width>
+					<label>             Complete Upgrade                              </label>
+          			<action>gksu "mate-terminal -x apt-get dist-upgrade" &</action>
+        		</button>
+        		</vbox>    
+			</hbox>
+		</frame>
+	 </vbox>
+</window>
+'
+
+
+export MAIN_DIALOG
+
+case $1 in
+	-d | --dump) echo "$MAIN_DIALOG" ;;
+	*) $GTKDIALOG --program=MAIN_DIALOG ;;
+esac

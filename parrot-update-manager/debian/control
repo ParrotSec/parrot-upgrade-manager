@@ -1,0 +1,19 @@
+Source: parrot-update-manager
+Section: parrot
+Priority: optional
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
+           Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: pkg-config
+Homepage: http://www.parrotsec.org/
+
+
+Package: parrot-update-manager
+Architecture: all
+Depends: gtkd | gtkdialog, apt-parrot
+Section: parrot
+Priority: optional
+Description: A simple APT update manager frontend for Parrot OS
+ A simple APT update manager frontend for Parrot OS

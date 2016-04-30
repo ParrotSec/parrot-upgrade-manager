@@ -1,0 +1,5 @@
+parrot-update-manager (3.0+parrot0) testing; urgency=medium
+
+  * Debianize source
+
+ -- Lorenzo "Palinuro" Faletra <eclipse@parrotsec.org>  Sat, 21 May 2016 20:20:59 +0200
