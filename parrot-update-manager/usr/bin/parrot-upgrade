@@ -3,7 +3,7 @@ prog="Parrot Update Manager"
 Encoding=UTF-8
 [ -z $GTKDIALOG ] && GTKDIALOG=gtkdialog
 	MAIN_DIALOG='
-<window window_position="1" font="Monospace" title="Parrot Update Manager" resizable="true"  image-name="/usr/share/parrot-update-manager/icons/icon.svg">
+<window window_position="1" title="Parrot Update Manager" resizable="true"  image-name="/usr/share/parrot-update-manager/icons/icon.svg">
         <vbox>
 				<frame>
 					<pixmap>
