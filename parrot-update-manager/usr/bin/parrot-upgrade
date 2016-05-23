@@ -14,38 +14,40 @@ Encoding=UTF-8
 					<vbox space-fill="true">
 						<combobox>	 
 							<variable>mirror</variable> 
-							<item>usa		-  1 Gbps  - north america  - massachussetts  (SIPB MIT)</item> 
-							<item>usa2		-  1 Gbps  - north america  -    michigan     (LUG MTU)</item>
-							<item>usa3		-  1 Gbps  - north america  -    virginia     (JMU)</item>
-							<item>usa4		-  1 Gbps  - north america  -    new york     (CLARKSON)</item>
-							<item>usa5		-  1 Gbps  - north america  -  california     (BERKELEY)</item>
-							<item>euro		- 10 Gbps  -   europe       -    italy        (GARR)</item>
-							<item>euro2		- 250 Mbps -   europe       -    france       (FROZENBOX)</item>
-							<item>euro3		- 20 Gbps  -   europe       -    germany      (RWTH-AACHEN)</item>
-							<item>euro4		-  1 Gbps  -   europe       -    england      (WARWICK)</item>
-							<item>euro5		- 10 Gbps  -   europe       -   netherland    (NLUUG)</item>
-							<item>euro6		- 10 Gbps  -   europe       -    poland       (ONET)</item>
-							<item>euro7		-  4 Gbps  -   europe       -    sweden       (UMA)</item>
-							<item>asia		-  1 Gbps  -    asia        -    russia       (YANDEX)</item>
-							<item>asia2		-  1 Gbps  -    asia        -  bangladesh     (AMBERIT)</item>
-							<item>asia3		- 10 Mbps  -    asia        -     china       (YFGAO)</item>
-							<item>sam		- 100 Mbps - south america  -    ecuador      (CEDIA)</item>
-							<item>sam2		- 100 Mbps - south america  -    ecuador      (UTA)</item>
-							<item>meast		-  1 Gpbs  -  middle east   -     iran        (ASIS)</item>
-							<item>ocean		-  1 Gbps  -   oceania      - new caledonia   (LAGOON)</item>
-							<item>africa	- 100 Mbps -   africa       -    tanzania     (APTUS)</item>
+							<item>usa			- north america  - massachussetts  (SIPB MIT) - 1 Gbps</item> 
+							<item>usa2		- north america  -    michigan     (Lug MTU) - 1 Gbps</item>
+							<item>usa3		- north america  -    virginia     (JMU) - 1 Gbps</item>
+							<item>usa4		- north america  -    new york     (Clarkson) - 1 Gbps</item>
+							<item>usa5		- north america  -  california     (Berkeley) - 1 Gbps</item>
+							<item>euro		-   europe       -    italy        (GARR) - 10 Gbps</item>
+							<item>euro2		-   europe       -    france       (Frozenbox) - 250 Mbps</item>
+							<item>euro3		-   europe       -    germany      (RWTH-Aachen) - 20 Gbps</item>
+							<item>euro4		-   europe       -    england      (Warwick) - 1 Gbps</item>
+							<item>euro5		-   europe       -   netherland    (Nluug) - 10 Gbps</item>
+							<item>euro6		-   europe       -    poland       (Onet) - 10 Gbps</item>
+							<item>euro7		-   europe       -    sweden       (UMA) - 10 Gbps</item>
+							<item>euro8		-   europe       -    ireland      (Heanet) - 10 Gbps</item>
+							<item>asia			-    asia        -    russia       (Yandex) - 1 Gbps</item>
+							<item>asia2		-    asia        -  bangladesh     (AmberIT) - 1 Gbps</item>
+							<item>asia3		-    asia        -    taiwan       (NCHC) - 10 Gbps</item>
+							<item>asia4		-    asia        -     china       (Yfgao) - 10 Mbps</item>
+							<item>sam			- south america  -    ecuador      (Cedia) - 100 Mbps</item>
+							<item>sam2		- south america  -    ecuador      (UTA) - 100 Mbps</item>
+							<item>meast		-  middle east   -     iran        (Asis) - 1 Gbps</item>
+							<item>ocean		-   oceania      - new caledonia   (Lagoon) - 1 Gbps</item>
+							<item>africa		-   africa       -    tanzania     (Aptus) - 100 Mbps</item>
 						</combobox>
 						<hbox>
 						<button> 
-							<label>Select Free mirror</label> 
-							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") parrot free</action> 
-						</button>
-						<button> 
-							<label>Select non-free mirror</label> 
+							<label>Select as standard mirror</label> 
 							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") parrot nonfree</action> 
 						</button>
 						<button> 
-							<label>Select testing mirror</label> 
+							<label>Select as parrot-libre mirror</label> 
+							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") parrot free</action> 
+						</button>
+						<button> 
+							<label>Select as testing mirror</label> 
 							<action>menuexecg parrot-mirror-selector $(echo $mirror | head -n1 | grep -o "^\w*\b") testing nonfree</action> 
 						</button>
 						</hbox>

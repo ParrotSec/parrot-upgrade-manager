@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: parrot-update-manager
 Binary: parrot-update-manager
 Architecture: all
-Version: 3.0+parrot0
+Version: 3.0+parrot1
 Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
 Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>, Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
 Homepage: http://www.parrotsec.org/
@@ -12,8 +12,8 @@ Build-Depends-Indep: pkg-config
 Package-List:
  parrot-update-manager deb parrot optional arch=all
 Checksums-Sha1:
- 193dc203a29dfafeca9742b17dc9b1b2f4b027b5 17104 parrot-update-manager_3.0+parrot0.tar.xz
+ 3ed6fb43e099fd7e166a4bc02facbb890c38fe53 17184 parrot-update-manager_3.0+parrot1.tar.xz
 Checksums-Sha256:
- 03e8c5d15e3af0582aa0ef622d6a92acbed702fcf9b188f9ea6fa2f04a3b4add 17104 parrot-update-manager_3.0+parrot0.tar.xz
+ 3879ce16e114d2fec5a64afebafdac165e088e2df2ca2ee5cea244e3b7978dcc 17184 parrot-update-manager_3.0+parrot1.tar.xz
 Files:
- fa5ee84088e670e0ed2aca301f4138c1 17104 parrot-update-manager_3.0+parrot0.tar.xz
+ 7dc1b835af8f941aa5486031d0d4a43f 17184 parrot-update-manager_3.0+parrot1.tar.xz
