@@ -12,8 +12,8 @@ Build-Depends-Indep: pkg-config
 Package-List:
  parrot-update-manager deb parrot optional arch=all
 Checksums-Sha1:
- 3ed6fb43e099fd7e166a4bc02facbb890c38fe53 17184 parrot-update-manager_3.0+parrot1.tar.xz
+ a37f88fdfa6fe3c3348f91fba489c154c23988f8 17224 parrot-update-manager_3.0+parrot1.tar.xz
 Checksums-Sha256:
- 3879ce16e114d2fec5a64afebafdac165e088e2df2ca2ee5cea244e3b7978dcc 17184 parrot-update-manager_3.0+parrot1.tar.xz
+ 664cab74052c34ba99139b8f714470b17789fffc9b5dafe633b9c76c43ae1043 17224 parrot-update-manager_3.0+parrot1.tar.xz
 Files:
- 7dc1b835af8f941aa5486031d0d4a43f 17184 parrot-update-manager_3.0+parrot1.tar.xz
+ 255c63f754c2b7e4c525392674b7e3d2 17224 parrot-update-manager_3.0+parrot1.tar.xz

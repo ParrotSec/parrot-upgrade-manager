@@ -36,6 +36,7 @@ Encoding=UTF-8
 							<item>meast		-  middle east   -     iran        (Asis) - 1 Gbps</item>
 							<item>ocean		-   oceania      - new caledonia   (Lagoon) - 1 Gbps</item>
 							<item>africa		-   africa       -    tanzania     (Aptus) - 100 Mbps</item>
+							<item>cf		-   Global Delivery Network     (Cloudflare)</item>
 						</combobox>
 						<hbox>
 						<button> 

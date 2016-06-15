@@ -1,0 +1,76 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: info: source package parrot-update-manager
+dpkg-buildpackage: info: source version 3.0+parrot1
+dpkg-buildpackage: info: source distribution testing
+dpkg-buildpackage: info: source changed by Lorenzo "Palinuro" Faletra <eclipse@parrotsec.org>
+ dpkg-source --before-build parrot-update-manager
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b parrot-update-manager
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building parrot-update-manager in parrot-update-manager_3.0+parrot1.tar.xz
+dpkg-source: info: building parrot-update-manager in parrot-update-manager_3.0+parrot1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+	make -j1
+make[1]: ingresso nella directory "/home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager"
+make[1]: Nessuna operazione da eseguire per "all".
+make[1]: uscita dalla directory "/home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager"
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+	make -j1 install DESTDIR=/home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager/debian/parrot-update-manager AM_UPDATE_INFO_DIR=no
+make[1]: ingresso nella directory "/home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager"
+chmod -R 0644 usr/*
+chmod -R 0755 usr/bin/*
+chmod 0755 usr/share/parrot-update-manager/full-upgrade.sh
+chown root:root usr/*
+mkdir /home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager/debian/parrot-update-manager/usr/
+cp -rf usr/* /home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager/debian/parrot-update-manager/usr/
+make[1]: uscita dalla directory "/home/eclipse/Desktop/repo/parrot-update-manager/parrot-update-manager"
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'parrot-update-manager' in '../parrot-update-manager_3.0+parrot1_all.deb'.
+ dpkg-genchanges  >../parrot-update-manager_3.0+parrot1_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build parrot-update-manager
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: parrot-update-manager source: debhelper-but-no-misc-depends parrot-update-manager
+W: parrot-update-manager source: maintainer-also-in-uploaders
+W: parrot-update-manager source: changelog-should-mention-nmu
+W: parrot-update-manager source: source-nmu-has-incorrect-version-number 3.0+parrot1
+E: parrot-update-manager: copyright-file-contains-full-gpl-license
+E: parrot-update-manager: copyright-should-refer-to-common-license-file-for-gpl
+W: parrot-update-manager: description-synopsis-starts-with-article
+E: parrot-update-manager: description-synopsis-is-duplicated
+W: parrot-update-manager: unknown-section parrot
+W: parrot-update-manager: non-standard-dir-perm usr/bin/ 0655 != 0755
+W: parrot-update-manager: non-standard-dir-perm usr/share/ 0655 != 0755
+W: parrot-update-manager: non-standard-dir-perm usr/share/applications/ 0655 != 0755
+W: parrot-update-manager: non-standard-dir-perm usr/share/parrot-update-manager/ 0655 != 0755
+W: parrot-update-manager: non-standard-dir-perm usr/share/parrot-update-manager/icons/ 0655 != 0755
+W: parrot-update-manager: binary-without-manpage usr/bin/parrot-upgrade
+W: parrot-update-manager: script-not-executable usr/share/applications/parrot-update-manager.desktop
+W: parrot-update-manager: unusual-interpreter usr/share/applications/parrot-update-manager.desktop #!xdg-open
+Finished running lintian.
