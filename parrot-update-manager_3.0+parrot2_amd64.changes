@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 15 Jun 2016 19:19:05 +0200
+Source: parrot-update-manager
+Binary: parrot-update-manager
+Architecture: source all
+Version: 3.0+parrot2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Changed-By: Lorenzo "Palinuro" Faletra <eclipse@parrotsec.org>
+Description:
+ parrot-update-manager - A simple APT update manager frontend for Parrot OS
+Changes:
+ parrot-update-manager (3.0+parrot2) UNRELEASED; urgency=medium
+ .
+   * Add cloudflare support
+Checksums-Sha1:
+ 06e781f53ba0113956072a2887da0b7880f460b5 815 parrot-update-manager_3.0+parrot2.dsc
+ 5893ea8999e51e0f9e0eb80e6f8d09cb98e40354 17252 parrot-update-manager_3.0+parrot2.tar.xz
+ b092caf53646aa00808fea13a440dac897bcf0fa 17452 parrot-update-manager_3.0+parrot2_all.deb
+Checksums-Sha256:
+ 77e5233c7045b5aee0384c70a55a186b01d9b876ab8ad0d3a6a50153ebf07868 815 parrot-update-manager_3.0+parrot2.dsc
+ 8e4773cc352584db8a8d14dfca8b025e941c5c59d2bed6996f636184da1b125d 17252 parrot-update-manager_3.0+parrot2.tar.xz
+ 632b8d861b81684c98a94fbbd23ed58de203474a5b2e054127bfc88952ed2633 17452 parrot-update-manager_3.0+parrot2_all.deb
+Files:
+ e10cef62ee74b6f714164ef585ed928a 815 parrot optional parrot-update-manager_3.0+parrot2.dsc
+ 0198bb23f75ef00d226b549fdcb0dd54 17252 parrot optional parrot-update-manager_3.0+parrot2.tar.xz
+ ac1e12fe206e8d3efff12179807f790a 17452 parrot optional parrot-update-manager_3.0+parrot2_all.deb
