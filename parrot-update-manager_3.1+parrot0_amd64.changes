@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 28 Aug 2016 18:28:00 +0200
+Source: parrot-update-manager
+Binary: parrot-update-manager
+Architecture: source all
+Version: 3.1+parrot0
+Distribution: testing
+Urgency: medium
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Changed-By: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
+Description:
+ parrot-update-manager - A simple APT update manager frontend for Parrot OS
+Changes:
+ parrot-update-manager (3.1+parrot0) testing; urgency=medium
+ .
+   * Add TUNA mirror
+Checksums-Sha1:
+ 1e91d9fcc932ed229084d0db882c0fb234348af7 815 parrot-update-manager_3.1+parrot0.dsc
+ 09a75c509eb211eede43f04813bdc135988be539 17232 parrot-update-manager_3.1+parrot0.tar.xz
+ 0138cf64f9c5f6eeaae6e35d22d44912b85ede4c 17482 parrot-update-manager_3.1+parrot0_all.deb
+Checksums-Sha256:
+ 457698bd3bf9b93190a7fdc95961ce6422922d0f27465c930f458378db99b6ef 815 parrot-update-manager_3.1+parrot0.dsc
+ 161d67eb8fee65b92b8a066ebe15d2e7748d0081bd24ecedcd7fd6e0a69f5b3e 17232 parrot-update-manager_3.1+parrot0.tar.xz
+ a93f37ceb3e15c1081612c79ec1b3c6d3859959d985c08c38814ba83e030d0c2 17482 parrot-update-manager_3.1+parrot0_all.deb
+Files:
+ da86db1e364db80159147f6c097b6c61 815 parrot optional parrot-update-manager_3.1+parrot0.dsc
+ 80b0eae1693ee7d09b336d6315dda7ad 17232 parrot optional parrot-update-manager_3.1+parrot0.tar.xz
+ d0b259dbdbc7b64ca9ab4b8ed90842c4 17482 parrot optional parrot-update-manager_3.1+parrot0_all.deb

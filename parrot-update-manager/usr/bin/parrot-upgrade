@@ -30,7 +30,8 @@ Encoding=UTF-8
 							<item>asia			-    asia        -    russia       (Yandex) - 1 Gbps</item>
 							<item>asia2		-    asia        -  bangladesh     (AmberIT) - 1 Gbps</item>
 							<item>asia3		-    asia        -    taiwan       (NCHC) - 10 Gbps</item>
-							<item>asia4		-    asia        -     china       (Yfgao) - 10 Mbps</item>
+							<item>asia5		-    asia        -     china       (USTC) -  1 Gbps</item>
+							<item>asia6		-    asia        -     china       (TUNA) -  2 Gbps</item>
 							<item>sam			- south america  -    ecuador      (Cedia) - 100 Mbps</item>
 							<item>sam2		- south america  -    ecuador      (UTA) - 100 Mbps</item>
 							<item>meast		-  middle east   -     iran        (Asis) - 1 Gbps</item>

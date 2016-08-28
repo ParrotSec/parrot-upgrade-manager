@@ -1,4 +1,10 @@
-parrot-update-manager (3.0+parrot2) UNRELEASED; urgency=medium
+parrot-update-manager (3.1+parrot0) testing; urgency=medium
+
+  * Add TUNA mirror
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 28 Aug 2016 18:28:00 +0200
+
+parrot-update-manager (3.0+parrot2) testing; urgency=medium
 
   * Add cloudflare support
 
