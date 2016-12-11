@@ -1,7 +1,7 @@
 Source: parrot-update-manager
 Section: parrot
 Priority: optional
-Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Maintainer: Parrot Dev Team <parrot-devel@lists.parrotsec.org>
 Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
            Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
 Standards-Version: 3.9.8

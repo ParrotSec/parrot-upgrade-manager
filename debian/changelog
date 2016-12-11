@@ -1,3 +1,10 @@
+parrot-update-manager (3.2+parrot0) testing; urgency=medium
+
+  * Update mirrors list
+  * Update package structure
+
+ -- Lisetta "Sheireen" Ferrero <sheireen@parrotsec.org>  Sun, 11 Dec 2016 18:22:15 +0300
+
 parrot-update-manager (3.1+parrot0) testing; urgency=medium
 
   * Add TUNA mirror

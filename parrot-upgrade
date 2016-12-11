@@ -14,30 +14,38 @@ Encoding=UTF-8
 					<vbox space-fill="true">
 						<combobox>	 
 							<variable>mirror</variable> 
-							<item>usa			- north america  - massachussetts  (SIPB MIT) - 1 Gbps</item> 
-							<item>usa2		- north america  -    michigan     (Lug MTU) - 1 Gbps</item>
-							<item>usa3		- north america  -    virginia     (JMU) - 1 Gbps</item>
-							<item>usa4		- north america  -    new york     (Clarkson) - 1 Gbps</item>
-							<item>usa5		- north america  -  california     (Berkeley) - 1 Gbps</item>
-							<item>euro		-   europe       -    italy        (GARR) - 10 Gbps</item>
-							<item>euro2		-   europe       -    france       (Frozenbox) - 250 Mbps</item>
-							<item>euro3		-   europe       -    germany      (RWTH-Aachen) - 20 Gbps</item>
-							<item>euro4		-   europe       -    england      (Warwick) - 1 Gbps</item>
-							<item>euro5		-   europe       -   netherland    (Nluug) - 10 Gbps</item>
-							<item>euro6		-   europe       -    poland       (Onet) - 10 Gbps</item>
-							<item>euro7		-   europe       -    sweden       (UMA) - 10 Gbps</item>
-							<item>euro8		-   europe       -    ireland      (Heanet) - 10 Gbps</item>
-							<item>asia			-    asia        -    russia       (Yandex) - 1 Gbps</item>
-							<item>asia2		-    asia        -  bangladesh     (AmberIT) - 1 Gbps</item>
-							<item>asia3		-    asia        -    taiwan       (NCHC) - 10 Gbps</item>
-							<item>asia5		-    asia        -     china       (USTC) -  1 Gbps</item>
-							<item>asia6		-    asia        -     china       (TUNA) -  2 Gbps</item>
-							<item>sam			- south america  -    ecuador      (Cedia) - 100 Mbps</item>
-							<item>sam2		- south america  -    ecuador      (UTA) - 100 Mbps</item>
-							<item>meast		-  middle east   -     iran        (Asis) - 1 Gbps</item>
-							<item>ocean		-   oceania      - new caledonia   (Lagoon) - 1 Gbps</item>
-							<item>africa		-   africa       -    tanzania     (Aptus) - 100 Mbps</item>
-							<item>cf		-   Global Delivery Network     (Cloudflare)</item>
+
+<item>0    - Global Distributed CDN - Cloudflare</item>
+<item>1    - North America   -  Massachussetts -   1 Gbps   -   SIPB MIT</item>
+<item>2    - North America   -   California    -   1 Gbps   -   Berkeley</item>
+<item>3    - North America   -    Virginia     -   1 Gbps   -   JMU</item>
+<item>4    - North America   -    New York     -   1 Gbps   -   Clarkson</item>
+<item>5    - South America   -     Ecuador     - 100 Mbps   -   CEDIA</item>
+<item>6    - South America   -     Ecuador     - 100 Mbps   -   UTA</item>
+<item>7    - South America   -     Ecuador     - 100 Mbps   -   UEB</item>
+<item>8    -    Europe       -    Germany      -  20 Gbps   -  Halifax RWTH-Aachen</item>
+<item>9    -    Europe       -     Italy       -  10 Gbps   -  GARR Consortium</item>
+<item>10   -    Europe       -    Germany      -  10 Gbps   -  Esslingen University</item>
+<item>11   -    Europe       -   Netherlands   -  10 Gbps   -  Nluug</item>
+<item>12   -    Europe       -   Netherlands   -  10 Gbps   -  Babylon.network</item>
+<item>13   -    Europe       -     Sweden      -  10 Gbps   -  Umea University (ACC UMU)</item>
+<item>14   -    Europe       -    Ireland      -  10 Gbps   -  Heanet</item>
+<item>15   -    Europe       -     Poland      -  10 Gbps   -  Onet</item>
+<item>16   -    Europe       -     France      -  10 Gbps   -  Babylon.network</item>
+<item>17   -    Europe       - United Kingdom  -   1 Gbps   -  Warwick University</item>
+<item>18   -    Europe       -     Greece      -   1 Gbps   -  University of Crete</item>
+<item>19   -    Europe       -    Germany      -   1 Gbps   -  Dasaweb eu2</item>
+<item>20   -    Europe       -     France      - 250 Mbps   -  Dasaweb eu1</item>
+<item>21   -    Europe       -     France      - 250 Mbps   -  Frozenbox</item>
+<item>22   -     Asia        -    Taiwan       -  10 Gbps   -  NCHC</item>
+<item>23   -     Asia        -   Singapore     -  10 Gbps   -  0x</item>
+<item>24   -     Asia        -     China       -   2 Gbps   -  TUNA Tsinghua</item>
+<item>25   -     Asia        -     China       -   1 Gbps   -  USTC</item>
+<item>26   -     Asia        -    Russia       -   1 Gbps   -  Yandex</item>
+<item>27   -     Asia        -   Bangladesh    -   1 Gbps   -  Amberit (Dhakacom)</item>
+<item>28   -   Oceania       -  New Caledonia  -   1 Gbps   -  Lagoon</item>
+<item>29   -  Middle East    -     Iran        -   1 Gbps   -  ASIS</item>
+
 						</combobox>
 						<hbox>
 						<button> 

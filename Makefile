@@ -3,10 +3,12 @@ all:
 clean:
 
 install:
-	chmod -R 0644 usr/*
-	chmod -R 0755 usr/bin/*
-	chmod 0755 usr/share/parrot-update-manager/full-upgrade.sh
-	chown root:root usr/*
-	mkdir $(DESTDIR)/usr/
-	cp -rf usr/* $(DESTDIR)/usr/
-
+	mkdir -p $(DESTDIR)/usr/bin
+	mkdir -p $(DESTDIR)/usr/share/applications
+	mkdir -p $(DESTDIR)/parrot-update-manager
+	chown root:root -R icons full-upgrade.sh parrot-upgrade
+	cp full-upgrade.sh $(DESTDIR)/usr/share/parrot-upgrade-manager/
+	cp -r icons $(DESTDIR)/usr/share/parrot-upgrade-manager/
+	cp parrot-upgrade $(DESTDIR)/usr/bin/
+	chmod 0755 $(DESTDIR)/usr/share/parrot-update-manager/full-upgrade.sh
+	chmod 0755 $(DESTDIR)/usr/bin/parrot-upgrade
