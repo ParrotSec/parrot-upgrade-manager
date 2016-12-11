@@ -14,7 +14,6 @@ Package: parrot-update-manager
 Architecture: all
 Depends: gtkd | gtkdialog, apt-parrot
 Section: parrot
-Provides: parrot-upgrade-manager
 Priority: optional
 Description: A simple APT update manager frontend for Parrot OS
  A simple APT update manager frontend for Parrot OS
