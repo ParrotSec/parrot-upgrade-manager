@@ -1,7 +1,7 @@
 parrot-update-manager (3.2+parrot1) testing; urgency=medium
 
   * Fix launcher disappearing from menu
-   + lisetta ti odio
+  * Rename paths from update-manager to upgrade-manager
 
  -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Tue, 13 Dec 2016 12:46:38 +0100
 
