@@ -10,5 +10,6 @@ install:
 	cp full-upgrade.sh $(DESTDIR)/usr/share/parrot-upgrade-manager/
 	cp -r icons $(DESTDIR)/usr/share/parrot-upgrade-manager/
 	cp parrot-upgrade $(DESTDIR)/usr/bin/
+	cp usr/bin/applications/update-manager-parrot.desktop $(DESTDIR)/usr/share/applications/update-manager-parrot.desktop
 	chmod 0755 $(DESTDIR)/usr/share/parrot-update-manager/full-upgrade.sh
 	chmod 0755 $(DESTDIR)/usr/bin/parrot-upgrade
