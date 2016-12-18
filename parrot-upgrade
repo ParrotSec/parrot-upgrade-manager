@@ -1,13 +1,13 @@
 #!/bin/bash
-prog="Parrot Update Manager"
+prog="Parrot Upgrade Manager"
 Encoding=UTF-8
 [ -z $GTKDIALOG ] && GTKDIALOG=gtkdialog
 	MAIN_DIALOG='
-<window window_position="1" title="Parrot Update Manager" resizable="true"  image-name="/usr/share/parrot-update-manager/icons/icon.svg">
+<window window_position="1" title="Parrot Update Manager" resizable="true"  image-name="/usr/share/parrot-upgrade-manager/icons/icon.svg">
         <vbox>
 				<frame>
 					<pixmap>
-						<input file>/usr/share/parrot-update-manager/icons/parrot-upgrade.svg</input>
+						<input file>/usr/share/parrot-upgrade-manager/icons/parrot-upgrade.svg</input>
 					</pixmap>
 				</frame>
 				<frame Mirror Selector>
@@ -66,31 +66,31 @@ Encoding=UTF-8
 		<frame Wizard>
 			<hbox>
 				<button>
-       				<input file>/usr/share/parrot-update-manager/icons/icon.svg</input>
+       				<input file>/usr/share/parrot-upgrade-manager/icons/icon.svg</input>
 					<width>180</width>
 					<height>60</height>
 					<label>.                                          Automatic System Upgrade                                      </label>
-          			<action>gksu "mate-terminal -x /usr/share/parrot-update-manager/full-upgrade.sh" &</action>
+          			<action>gksu "mate-terminal -x /usr/share/parrot-upgrade-manager/full-upgrade.sh" &</action>
         		</button>
 			</hbox>
 		</frame>  							   
 		<frame Manual Update>
 			<hbox>
 		 		<button>
-       				<input file>/usr/share/parrot-update-manager/icons/update.svg</input>
+       				<input file>/usr/share/parrot-upgrade-manager/icons/update.svg</input>
 					<height>60</height>
 					<label>      Check for Updates                      </label>
           			<action>gksu "mate-terminal -x apt-get update" &</action>
         		</button>
         		<vbox>
 		  		<button>
-       				<input file>/usr/share/parrot-update-manager/icons/upgrade.png</input>
+       				<input file>/usr/share/parrot-upgrade-manager/icons/upgrade.png</input>
 					<width>30</width>
 					<label>             Partial Upgrade                               </label>
           			<action>gksu "mate-terminal -x apt-get upgrade" &</action>
         		</button>
         		<button>
-       				<input file>/usr/share/parrot-update-manager/icons/dist-upgrade.png</input>
+       				<input file>/usr/share/parrot-upgrade-manager/icons/dist-upgrade.png</input>
 					<width>30</width>
 					<label>             Complete Upgrade                              </label>
           			<action>gksu "mate-terminal -x apt-get dist-upgrade" &</action>

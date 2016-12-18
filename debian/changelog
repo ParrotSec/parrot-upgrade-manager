@@ -1,3 +1,9 @@
+parrot-update-manager (3.3+parrot9) testing; urgency=medium
+
+  * Fix icons path
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sun, 18 Dec 2016 20:56:38 +0100
+
 parrot-update-manager (3.2+parrot1) testing; urgency=medium
 
   * Fix launcher disappearing from menu
