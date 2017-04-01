@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# this software depends on gtkdialog which is deprecated
+#
+
 prog="Parrot Upgrade Manager"
 Encoding=UTF-8
 [ -z $GTKDIALOG ] && GTKDIALOG=gtkdialog
